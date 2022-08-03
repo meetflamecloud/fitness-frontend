@@ -177,3 +177,113 @@
     /* Inside auto layout */
 
 }
+
+.gym-div {
+    background: url("../Images/gym2.png");
+    background-size: 100% 100%;
+    height: 500px;
+    object-fit: contain;
+}
+
+.page2_input {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: #FFFFFF;
+    border-bottom: 2px solid rgb(255, 255, 255, 0.5);
+
+}
+
+.page2_teaxarea {
+    padding-bottom: 50px;
+}
+
+.page2_input::placeholder {
+
+    color: #FFFFFF;
+
+    opacity: 0.25;
+}
+
+.page2_contactus {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26.1897px;
+    line-height: 31px;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+
+.page_2_getin {
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 83.9%;
+}
+
+.page_2_getin>span:nth-child(1) {
+    color: #FFFFFF;
+}
+
+.page_2_getin>span:nth-child(2) {
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #0390CB;
+
+}
+
+.page-2_timing_div {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid #000000;
+    border-radius: 8px;
+    width: 110%;
+
+}
+
+.page-2_timing_div>div:nth-child(2) {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+
+    opacity: 0.75;
+
+}
+
+
+.page-2_submit {
+    border: 2.58333px solid #FFFFFF;
+    border-radius: 12.2431px;
+    width: 180px;
+    height: 40px;
+    margin: 10px 0;
+}
+
+.page-2_submit>div {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width: 768px) {
+    .page-2_timing_div {
+        width: 100%;
+    }
+
+    .page-2_submit {
+        border: 2.58333px solid #FFFFFF;
+        border-radius: 12.2431px;
+        width: 100%;
+        height: 75px;
+        margin: 10px 0;
+    }
+
+}

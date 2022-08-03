@@ -2,6 +2,7 @@ import React from "react";
 import "./Page2.css";
 import ecl from "../Images/Ellipse.png";
 import check from "../Images/Check.png";
+import clock from "../Images/clock.png";
 
 function Page2() {
   return (
@@ -76,13 +77,13 @@ function Page2() {
           <h1>GROUP CLASSES</h1>
           <p>
             Get some motivation and inspiration in our group fitness classes!
-            Choose from Yoga, Zumba, HIIT and more. There’s a class for
+            Choose from Yoga, Zumba, HIIT and more. There’ s a class for
             everyone! Our instructors are here to help you reach your goals.{" "}
           </p>
         </div>
 
         <div className="row d-flex flex-row justify-content-between">
-          <div className="col-md my-3 my-md-0 text-md-start text-center">
+          <div className="col-md  my-3 my-md-0 text-md-start text-center">
             <div className=" page-2_3_card pt-4 pb-3 px-3 ">
               <h3>PERSONAL TRAINING</h3>
               <p>
@@ -92,7 +93,7 @@ function Page2() {
               </p>
             </div>
           </div>
-          <div className="col-md my-3 my-md-0 text-md-start text-center">
+          <div className="col-md  my-3 my-md-0 text-md-start text-center">
             <div className=" page-2_3_card pt-4 pb-3 px-3 ">
               <h3>SUPPLEMENT SHOP</h3>
               <p>
@@ -102,7 +103,7 @@ function Page2() {
               </p>
             </div>
           </div>
-          <div className="col-md my-3 my-md-0 text-md-start text-center">
+          <div className="col-md  my-3 my-md-0 text-md-start text-center">
             <div
               className=" d-flex flex-column page-2_3_card pt-4 pb-3 px-3 "
               style={{ height: "100%" }}
@@ -113,6 +114,58 @@ function Page2() {
                 bar. Fuel your workout and recovery with our plant-based
                 options.
               </p>
+            </div>
+          </div>
+        </div>
+        <div className="container">
+          <div className="row gap-3">
+            <div className="col-md gym-div">
+              {/* <img src={gym} className="gym-img" alt="" /> */}
+            </div>
+            <div className="col-md d-flex justify-content-around flex-column">
+              <p className="page2_contactus">CONTACT US</p>
+              <div className="page_2_getin">
+                <span>GET IN </span> <span>TOUCH</span>
+              </div>
+              <form action="" className="d-flex flex-column gap-4 my-3">
+                <input
+                  className="page2_input"
+                  type="text"
+                  placeholder="Your name"
+                />
+                <input
+                  className="page2_input "
+                  type="email"
+                  placeholder="Email"
+                />
+                <input
+                  className="page2_input page2_teaxarea"
+                  type="text"
+                  placeholder="Your Message"
+                />
+              </form>
+              <div className="container-fluid p-0 ">
+                <div className="row  gap-3">
+                  <div className="col-md ">
+                    <div className="d-flex gap-2 page-2_timing_div py-3 px-2 ">
+                      <div>
+                        <img src={clock} alt="" />
+                      </div>
+                      <div>
+                        <div>Mon - Fri : 24 hours</div>
+                        <div>Sat-Sun : 7AM to 10PM</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md">
+                    <div className="col-md">
+                      <div className="d-flex btn justify-content-center align-items-center py-4 page-2_submit">
+                        <div>SUBMIT &nbsp; &gt;</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
