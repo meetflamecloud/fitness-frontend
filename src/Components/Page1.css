@@ -1,0 +1,230 @@
+.Page-1_sec {
+    background: url("../Images/back1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    object-fit: contain;
+    height: 850px;
+    padding: 29px 150px;
+}
+
+@media only screen and (max-width: 768px) {
+    .Page-1_sec {
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        object-fit: contain;
+        height: 850px;
+        padding: 20px 50px;
+    }
+}
+
+
+
+.page1_contactus {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 18.9571px;
+    border: 2px solid #FFFFFF;
+    border-radius: 4.73926px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .page1_contactus {
+        display: none;
+    }
+}
+
+
+
+.page1_contactus div {
+
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #FFFFFF;
+    letter-spacing: -0.02em;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.page1_menu {
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 18.9571px;
+    border: 2px solid #FFFFFF;
+    border-radius: 4.73926px;
+
+}
+
+.page1_menu img {
+    width: 24px;
+    height: 24px;
+}
+
+.page-1_quotes {
+    margin-top: 146px;
+    opacity: 0.75;
+    width: 400.3px;
+}
+
+
+.page-1_quotes div {
+    color: #FFFFFF;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26.1897px;
+    line-height: 31px;
+    letter-spacing: -0.02em;
+}
+
+.page-1_join-movement {
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100.792px;
+    line-height: 83.9%;
+
+    /* or 144px */
+
+    color: #FFFFFF;
+}
+
+
+
+.page-1_join-movement .MOVEMENT {
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 171.792px;
+    line-height: 83.9%;
+    /* or 144px */
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #0390CB;
+    font-size: 100px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .page-1_join-movement {
+        font-family: 'Staatliches';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 50.792px;
+        line-height: 83.9%;
+
+        /* or 144px */
+
+        color: #FFFFFF;
+    }
+
+    .page-1_quotes {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .MOVEMENT {
+        font-size: 44.792px !important;
+    }
+
+
+}
+
+.page-1_join-movement .MOVEMENT {
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50.792px;
+    line-height: 83.9%;
+    /* or 144px */
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #0390CB;
+    font-size: 100px;
+}
+
+
+.page-1_getstart {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 309px;
+    height: 74.88px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24.6442px;
+    line-height: 30px;
+    /* identical to box height */
+    margin-top: 20px;
+    letter-spacing: -0.02em;
+    border: 0;
+    color: #FFFFFF;
+
+
+    background: #0390CB;
+    border-radius: 4.73926px;
+}
+
+.page-1__hr {
+    color: #FFFFFF;
+    width: 506px;
+    margin-top: 119px;
+}
+
+.page-1_add {
+    width: 206px;
+    height: 56px;
+
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23.5727px;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.page-1_phn {
+    width: 150px;
+    height: 28px;
+
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23.5727px;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}

@@ -1,0 +1,179 @@
+.page2 {
+    background-color: #090e11;
+    /* height: 800px; */
+    padding: 29px 150px;
+    position: relative;
+
+
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    .page2 {
+        background-color: #090e11;
+        /* height: 800px; */
+        padding: 29px 80px;
+        position: relative;
+
+
+
+    }
+}
+
+.ecl-img {
+    opacity: 0.38;
+    filter: blur(66.9659px);
+    transform: rotate(-37.6deg);
+    position: absolute;
+
+}
+
+.page-2_quotes {
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(15px + 1.99vw);
+    line-height: 100%;
+
+    text-align: center;
+    /* identical to box height, or 39px */
+
+
+    color: #FFFFFF;
+}
+
+.page-2_para {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(15px + 0.80625vw);
+    line-height: 31px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    opacity: 0.75;
+}
+
+.page-2_become_a_member {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    /* identical to box height */
+
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #FFFFFF;
+    border-bottom: 2px solid #0390CB;
+
+}
+
+.page-2_whatweoffer {
+    background-color: rgb(255, 255, 255, 0.04);
+    text-align: center;
+    border-radius: 10px;
+
+
+}
+
+.page-2_whatweoffer>div:nth-child(1) {
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 100%;
+    /* or 30px */
+    color: #FFFFFF;
+    font-size: calc(15px + 1.0625vw);
+
+}
+
+.page-2_whatweoffer>div:nth-child(2) {
+    border-bottom: 2px solid #00090B;
+    width: 102%;
+}
+
+
+
+.img-check {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.img-check-text {
+    position: relative;
+    top: 3px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: calc(15px + 0.8vw);
+    line-height: 26px;
+    color: #FFFFFF;
+
+}
+
+.page-2_groupclass {
+    margin-top: 100px;
+}
+
+.page-2_groupclass>h1 {
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+
+
+    /* identical to box height, or 39px */
+
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.page-2_groupclass>p {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 65%;
+    opacity: 0.75;
+}
+
+.page-2_3_card {
+    background-color: rgb(255, 255, 255, 0.04);
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+
+.page-2_3_card>h3 {
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.page-2_3_card>p {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+
+    color: #FFFFFF;
+
+    opacity: 0.75;
+
+    /* Inside auto layout */
+
+}
