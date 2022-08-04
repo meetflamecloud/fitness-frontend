@@ -1,0 +1,47 @@
+.faq {
+    background-color: #090e11;
+    padding: 29px 150px;
+    position: relative;
+}
+
+@media only screen and (max-width: 768px) {
+    .faq {
+        background-color: #090e11;
+        /* height: 800px; */
+        padding: 20px 50px;
+        position: relative;
+
+
+
+    }
+}
+
+.ac-item {
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 10px;
+}
+
+.ac-title {
+
+    color: #FFFFFF;
+}
+
+.ac-dis {
+    color: #FFFFFF;
+    opacity: 0.75;
+}
+
+.faq-cu {
+    position: relative;
+}
+
+.faq-cu::before {
+    content: "";
+    position: absolute;
+    left: 32px;
+    bottom: 0;
+    height: 1px;
+    width: 60%;
+    /* or 100px */
+    border-bottom: 2px solid #0390CB;
+}

@@ -90,6 +90,13 @@
     letter-spacing: -0.02em;
 }
 
+@media only screen and (max-width:768px) {
+    .page-1_quotes div {
+        font-size: 15.1897px;
+        line-height: 15px;
+    }
+}
+
 .page-1_join-movement {
     font-family: 'Staatliches';
     font-style: normal;
@@ -123,7 +130,7 @@
         font-family: 'Staatliches';
         font-style: normal;
         font-weight: 400;
-        font-size: 50.792px;
+        font-size: 45.792px;
         line-height: 83.9%;
 
         /* or 144px */
@@ -137,7 +144,7 @@
     }
 
     .MOVEMENT {
-        font-size: 44.792px !important;
+        font-size: 40.792px !important;
     }
 
 
@@ -180,6 +187,9 @@
     background: #0390CB;
     border-radius: 4.73926px;
 }
+
+
+
 
 .page-1__hr {
     color: #FFFFFF;
@@ -227,4 +237,118 @@
     flex: none;
     order: 1;
     flex-grow: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .page-1_getstart {
+        width: 200px;
+        font-size: 15px;
+        height: 35px;
+    }
+
+    .page-1_add,
+    .page-1_phn {
+        font-size: 15.5727px;
+        line-height: 20px;
+        width: 100px;
+
+    }
+
+    .page-1__hr {
+        width: 230px;
+    }
+}
+
+.sidenav {
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #0e1213;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+
+
+.sidenav>span {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    color: #FFFFFF;
+    display: block;
+    transition: 0.3s;
+    cursor: pointer;
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 83.9%;
+}
+
+.sidenav>span:nth-child(2) {
+    color: #0390CB;
+    position: relative;
+    z-index: 1;
+
+}
+
+.sidenav>span:nth-child(2):before {
+    content: "";
+    position: absolute;
+    left: 32px;
+    bottom: 0;
+    height: 1px;
+    width: 35%;
+    /* or 100px */
+    border-bottom: 2px solid #0390CB;
+}
+
+.sidenav>span:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav>span {
+        font-size: 18px;
+    }
+}
+
+.sidenav-buttons {
+    padding: 8px 8px 8px 32px;
+    ;
+}
+
+.sidenav-buttons>div {
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+
+}
+
+.location-div,
+.contact-div {
+    color: rgb(255, 255, 255, 0.75);
+    padding: 8px 8px 8px 32px;
+}
+
+.location-div>div:first-child {
+    color: rgb(255, 255, 255, 1);
+}
+
+.contact-div>div:first-child {
+    color: rgb(255, 255, 255, 1);
 }
