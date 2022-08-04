@@ -1,37 +1,100 @@
 import React from "react";
-import "./Page2.css";
+import "./About_us.css";
+import logo from "../Images/logo.png";
+import menu from "../Images/Menu.png";
 import ecl from "../Images/Ellipse.png";
 import check from "../Images/Check.png";
 import clock from "../Images/clock.png";
 import insta from "../Images/Instagram.png";
 import instaw from "../Images/Instagram-white.png";
 import bom from "../Images/bottom.png";
-import logo from "../Images/logo.png";
+
 import instafoot from "../Images/insta-foot.png";
 import fbfoot from "../Images/fb-foot.png";
 
-function Page2() {
+function Aboutus() {
   return (
     <>
-      <div className="container-fluid m-0 p-0">
-        <div className="page2 container-fluid flex-column d-flex justify-content-center align-items-center gap-4">
-          {/* <img src={ecl} alt="" className="ecl-img" /> */}
-          <div className="page-2_quotes">
-            <div>JOIN OUR GYM.</div>
-            <div>OUR FAMILY.</div>
+      <div className="aboutus_ab ">
+        <div className="d-flex justify-content-between align-items-center">
+          <div className="">
+            <img src={logo} alt="" />
           </div>
-          <div className="page-2_para">
-            <p>
+          <div className="d-flex gap-2">
+            <div className="page1_contactus btn">
+              <div className="">CONTACT US</div>
+            </div>
+            <div className="page1_menu btn">
+              <img src={menu} alt="" srcset="" />
+            </div>
+          </div>
+        </div>
+        {/* landingpage */}
+        <div className="d-flex flex-column text-light abtus_qt gap-2">
+          <div className="d-flex justify-content-between abtus-qut">
+            <div>OUR GYM</div>
+            <div style={{ position: "relative", top: "-5px" }}>.</div>
+            <div>OUR FAMILY</div>
+          </div>
+          <div>
+            <h2 className="abtus">ABOUT US</h2>
+            <p className="abtus-p">
               Whether you’re taking your first fitness class ever or returning
               to the gym after a break, training for a personal best or on a
               mission to make this year your healthiest and happiest yet, we’re
               here for you.
             </p>
-            <p>
-              You can run, jump, lift, box, cycle, row, squat, stretch, or
-              balance your way to your fitness goals with us. Meanwhile, our
-              goal is simple – to empower YOU to reach YOURS.
-            </p>
+          </div>
+          <button className="page-1_getstart mt-0 ">
+            GET STARTED TODAY &gt;
+          </button>
+        </div>
+      </div>
+      {/* ourgym */}
+      <div className="container-fluid m-0 p-0">
+        <div className="ourgym-abtus container-fluid flex-column d-flex justify-content-center align-items-center gap-4">
+          {/* <img src={ecl} alt="" /> */}
+          <div className="d-flex flex-column">
+            <h1 className="text-center text-light our-gym-text">OUR GYM</h1>
+            <div className="para d-md-flex text-md-start text-light text-center gap-3">
+              <div>
+                <p>
+                  Xpress Fitness Center is a locally owned independent gym
+                  serving the West Fresno community. We saw a need for a fitness
+                  center west of the 99 that will help people who live and work
+                  here reach their health goals. We believe in offering the best
+                  equipment, the most inviting group fitness classes, and the
+                  cleanest facilities to our members.
+                </p>
+                <p>
+                  Our 32,000 square-foot gym houses showers and locker rooms, a
+                  sauna, a fresh juice and smoothie bar, a vitamin supplement
+                  store, and a huge variety of cardio machines and weights. It’s
+                  a one-stop-shop for all of your fitness and nutrition needs.
+                </p>
+                <p>
+                  With 40 treadmills and dozens of elliptical machines, stair
+                  climbers, and stationary bikes, you’ll never have to wait for
+                  a machine. Push weights in our green turf room, sweat in our
+                  hot yoga studio, shake it in our Zumba room, and push your
+                  limits in our strength room.
+                </p>
+              </div>
+              <div>
+                <p>
+                  Our professionals can help you with nutrition plans and
+                  personal training so you can achieve your health goals. You
+                  can find a group fitness class that fits your schedule, goals,
+                  and interests, from Zumba to yoga to HIIT and beyond.
+                </p>
+                <p>
+                  We’re open from 5 a.m. to 11pm so you can work out on your
+                  schedule. We believe in whole family fitness; family members
+                  can be added to your membership at discounted rates. Come see
+                  the Xpress Fitness difference.
+                </p>
+              </div>
+            </div>
           </div>
           <div className="page-2_become_a_member">
             <div>BECOME A MEMBER</div>
@@ -79,56 +142,6 @@ function Page2() {
                   <img src={check} className="img-check" alt="" />
                   <span className="img-check-text">Group fitness classes</span>
                 </div>
-              </div>
-            </div>
-          </div>
-          <div className="page-2_groupclass flex-column d-flex justify-content-center align-items-center">
-            <h1>GROUP CLASSES</h1>
-            <p>
-              Get some motivation and inspiration in our group fitness classes!
-              Choose from Yoga, Zumba, HIIT and more. There’ s a class for
-              everyone! Our instructors are here to help you reach your goals.{" "}
-            </p>
-          </div>
-
-          <div className="row d-flex flex-row justify-content-between">
-            <div className="col-md  my-3 my-md-0 text-md-start text-center">
-              <div
-                className=" page-2_3_card pt-4 pb-3 px-3 "
-                style={{ height: "100%" }}
-              >
-                <h3>PERSONAL TRAINING</h3>
-                <p>
-                  Three sessions included with your Gold Membership package, or
-                  talk to one of our personal trainers for a program that works
-                  for you.
-                </p>
-              </div>
-            </div>
-            <div className="col-md  my-3 my-md-0 text-md-start text-center">
-              <div
-                className=" page-2_3_card pt-4 pb-3 px-3  "
-                style={{ height: "100%" }}
-              >
-                <h3>SUPPLEMENT SHOP</h3>
-                <p>
-                  We carry vitamins, supplements, pre-workout and more to help
-                  fuel your lifestyle. We aim to be a one-stop-shop for your
-                  health and fitness needs.
-                </p>
-              </div>
-            </div>
-            <div className="col-md  my-3 my-md-0 text-md-start text-center">
-              <div
-                className=" d-flex flex-column page-2_3_card pt-4 pb-3 px-3 "
-                style={{ height: "100%" }}
-              >
-                <h3>JUICE BAR</h3>
-                <p>
-                  Fresh juices and smoothies are available at our in-gym juice
-                  bar. Fuel your workout and recovery with our plant-based
-                  options.
-                </p>
               </div>
             </div>
           </div>
@@ -184,7 +197,6 @@ function Page2() {
               </div>
             </div>
           </div>
-
           <div className="d-flex flex-column gap-2">
             <div className="text-light text-center">
               Xpress Fitness on Instagram
@@ -222,7 +234,6 @@ function Page2() {
               </div>
             </div>
           </div>
-
           <div>
             <button class="btn btn-primary text-center ">
               <img
@@ -236,73 +247,73 @@ function Page2() {
             </button>
           </div>
         </div>
-      </div>
-      <div className="bottom-banner ">
-        <div className="row d-flex justify-content-between">
-          <div className="col-8 justify-content-center align-items-center d-flex flex-fill p-3">
-            <div className="row">
-              <div className="col-md-10 what-are-you-div">
-                WHAT ARE YOU WAITING FOR?JOIN XPRESS FITNESS TODAY
-              </div>
-              <div className="col-md-2 d-flex justify-content-center align-items-center see-plan-div ">
-                <div className="btn see-plan">SEE PLANS &nbsp; &gt;</div>
+        <div className="bottom-banner ">
+          <div className="row d-flex justify-content-between">
+            <div className="col-8 justify-content-center align-items-center d-flex flex-fill p-3">
+              <div className="row">
+                <div className="col-md-10 what-are-you-div">
+                  WHAT ARE YOU WAITING FOR?JOIN XPRESS FITNESS TODAY
+                </div>
+                <div className="col-md-2 d-flex justify-content-center align-items-center see-plan-div ">
+                  <div className="btn see-plan">SEE PLANS &nbsp; &gt;</div>
+                </div>
               </div>
             </div>
-          </div>
-          <div className="col-4 d-flex justify-content-center bottom-banner-img-div">
-            <img src={bom} alt="" />
+            <div className="col-4 d-flex justify-content-center bottom-banner-img-div">
+              <img src={bom} alt="" />
+            </div>
           </div>
         </div>
-      </div>
-      <div className="footer py-5 d-flex justify-content-around flex-column flex-md-row">
-        <div className="d-flex flex-column gap-3">
-          <div>
-            <img src={logo} alt="" />
+        <div className="footer py-5 d-flex justify-content-around flex-column flex-md-row">
+          <div className="d-flex flex-column gap-3">
+            <div>
+              <img src={logo} alt="" />
+            </div>
+            <div>
+              Whether you’re taking your first
+              <br />
+              fitness class ever or returning <br /> to the gym after a break
+            </div>
+            <div className="copyright-lg">
+              ©All Rights Reserved Xpress Fitness
+            </div>
           </div>
-          <div>
-            Whether you’re taking your first
-            <br />
-            fitness class ever or returning <br /> to the gym after a break
+          <div className="d-flex flex-column gap-3">
+            <div>LOCATION</div>
+            <div>
+              3790 W. Shields Ave. <br /> Fresno, 93722
+            </div>
+            <div> Call : (559) 319-8162</div>
+            <div>
+              <div>Mon - Fri : 24 hours</div>
+              <div>Sat-Sun : 7AM to 10PM</div>{" "}
+            </div>
           </div>
-          <div className="copyright-lg">
+          <div className="d-flex flex-column gap-3">
+            <div>LEARN MORE</div>
+            <div>About Us </div>
+            <div>Membership</div>
+            <div>FAQs</div>
+          </div>
+          <div className="d-flex flex-column gap-3">
+            <div>CONNECT WITH US</div>
+            <div className="d-flex gap-2">
+              <span>
+                <img src={instafoot} alt="" srcset="" height={20} width={20} />
+              </span>
+              <span>
+                <img src={fbfoot} alt="" height={20} width={20} />
+              </span>
+            </div>
+          </div>
+
+          <div className="copyright-md text-center d-none">
             ©All Rights Reserved Xpress Fitness
           </div>
-        </div>
-        <div className="d-flex flex-column gap-3">
-          <div>LOCATION</div>
-          <div>
-            3790 W. Shields Ave. <br /> Fresno, 93722
-          </div>
-          <div> Call : (559) 319-8162</div>
-          <div>
-            <div>Mon - Fri : 24 hours</div>
-            <div>Sat-Sun : 7AM to 10PM</div>{" "}
-          </div>
-        </div>
-        <div className="d-flex flex-column gap-3">
-          <div>LEARN MORE</div>
-          <div>About Us </div>
-          <div>Membership</div>
-          <div>FAQs</div>
-        </div>
-        <div className="d-flex flex-column gap-3">
-          <div>CONNECT WITH US</div>
-          <div className="d-flex gap-2">
-            <span>
-              <img src={instafoot} alt="" srcset="" height={20} width={20} />
-            </span>
-            <span>
-              <img src={fbfoot} alt="" height={20} width={20} />
-            </span>
-          </div>
-        </div>
-
-        <div className="copyright-md text-center d-none">
-          ©All Rights Reserved Xpress Fitness
         </div>
       </div>
     </>
   );
 }
 
-export default Page2;
+export default Aboutus;

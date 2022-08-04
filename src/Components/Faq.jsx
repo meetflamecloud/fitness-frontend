@@ -11,6 +11,7 @@ function Faq() {
   return (
     <>
       <div className="faq">
+        {/* navbar */}
         <div className="d-flex justify-content-between align-items-center mb-3">
           <div className="">
             <img src={logo} alt="" />
@@ -24,6 +25,7 @@ function Faq() {
             </div>
           </div>
         </div>
+        {/* faq */}
         <div className="d-flex flex-column justify-content-center align-items-center gap-3 mb-5">
           <div className="text-center text-light fs-3 fw-bolder">
             FREQUENTLY ASKED <br /> QUESTIONS
@@ -140,11 +142,11 @@ function Faq() {
             <div className="fw-bold faq-cu">Contact Us</div>
           </div>
         </div>
+
+        {/* form */}
         <div className="container">
           <div className="row gap-3">
-            <div className="col-md gym-div">
-              {/* <img src={gym} className="gym-img" alt="" /> */}
-            </div>
+            <div className="col-md gym-div"></div>
             <div className="col-md d-flex justify-content-around flex-column">
               <p className="page2_contactus">CONTACT US</p>
               <div className="page_2_getin">
@@ -193,6 +195,7 @@ function Faq() {
           </div>
         </div>
       </div>
+      {/* bottom-banner */}
       <div className="bottom-banner ">
         <div className="row d-flex justify-content-between">
           <div className="col-8 justify-content-center align-items-center d-flex flex-fill p-3">
@@ -210,6 +213,7 @@ function Faq() {
           </div>
         </div>
       </div>
+      {/* footer */}
       <div className="footer py-5 d-flex justify-content-around flex-column flex-md-row">
         <div className="d-flex flex-column gap-3">
           <div>

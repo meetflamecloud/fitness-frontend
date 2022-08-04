@@ -1,0 +1,82 @@
+.aboutus_ab {
+    background-image: url("../Images/about_us_back.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    object-fit: contain;
+    height: 850px;
+    padding: 29px 150px;
+}
+
+.abtus_qt {
+    margin: 100px 0;
+}
+
+.abtus {
+    font-size: 90px;
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+
+    line-height: 83.9%;
+}
+
+.abtus-p {
+    opacity: 0.75;
+    width: 372px;
+    font-family: 'Barlow';
+    font-style: normal;
+}
+
+.abtus-qut {
+    width: 300px;
+}
+
+@media only screen and (max-width: 768px) {
+    .aboutus_ab {
+
+        padding: 20px 50px;
+        position: relative;
+
+
+
+    }
+
+    .abtus_qt {
+        margin: 70px 0;
+    }
+
+    .abtus-p {
+        width: 225px;
+        opacity: 1;
+    }
+
+    .abtus-qut {
+        width: 190px;
+    }
+}
+
+.ourgym-abtus {
+    background-color: #090e11;
+
+    padding: 29px 150px;
+}
+
+.para p {
+    opacity: 0.75;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.our-gym-text {
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 768px) {
+    .ourgym-abtus {
+        padding: 20px 50px;
+        position: relative;
+    }
+}
