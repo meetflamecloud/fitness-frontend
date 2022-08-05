@@ -15,7 +15,7 @@ function Page2() {
     <>
       <div className="container-fluid m-0 p-0">
         <div className="page2 container-fluid flex-column d-flex justify-content-center align-items-center gap-4">
-          {/* <img src={ecl} alt="" className="ecl-img" /> */}
+          <img src={ecl} alt="" className="ecl-img" />
           <div className="page-2_quotes">
             <div>JOIN OUR GYM.</div>
             <div>OUR FAMILY.</div>

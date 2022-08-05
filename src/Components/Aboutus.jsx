@@ -53,7 +53,7 @@ function Aboutus() {
       {/* ourgym */}
       <div className="container-fluid m-0 p-0">
         <div className="ourgym-abtus container-fluid flex-column d-flex justify-content-center align-items-center gap-4">
-          {/* <img src={ecl} alt="" /> */}
+          <img src={ecl} alt="" className="ecl-img" />
           <div className="d-flex flex-column">
             <h1 className="text-center text-light our-gym-text">OUR GYM</h1>
             <div className="para d-md-flex text-md-start text-light text-center gap-3">
@@ -247,6 +247,7 @@ function Aboutus() {
             </button>
           </div>
         </div>
+
         <div className="bottom-banner ">
           <div className="row d-flex justify-content-between">
             <div className="col-8 justify-content-center align-items-center d-flex flex-fill p-3">
