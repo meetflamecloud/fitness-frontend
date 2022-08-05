@@ -57,18 +57,27 @@
 }
 
 .page-2_become_a_member {
+
+
+    line-height: 36px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.page-2_become_a_member>div {
     font-family: 'Barlow';
     font-style: normal;
     font-weight: 600;
     font-size: 30px;
-    line-height: 36px;
-    /* identical to box height */
-
+    width: fit-content;
     letter-spacing: -0.02em;
-    text-align: center;
-    color: #FFFFFF;
     border-bottom: 2px solid #0390CB;
-
 }
 
 .page-2_whatweoffer {
@@ -110,7 +119,7 @@
     font-family: 'Barlow';
     font-style: normal;
     font-weight: 500;
-    font-size: calc(10px + 0.8vw);
+    font-size: calc(5px + 0.8vw);
     line-height: 26px;
     color: #FFFFFF;
 

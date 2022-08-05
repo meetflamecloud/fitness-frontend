@@ -1,0 +1,48 @@
+.price-card {
+    width: 235.34px;
+    height: 235.34px;
+    background: #14191B;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cardlogo {
+
+    width: 142.66px;
+    height: 62.07px;
+    position: relative;
+    margin-bottom: 15px;
+
+}
+
+.cardlogo>img {
+    width: 142.66px;
+    height: 62.07px;
+}
+
+.cardlogo::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: -15px;
+    height: 1px;
+    width: 100%;
+    /* or 100px */
+    border-bottom: 2px solid #ffff;
+}
+
+.registerfee {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: calc(26.1897px / 1.5);
+    line-height: 72px;
+    letter-spacing: -0.02em;
+}
+
+.commonback {
+    background-color: #090e11;
+}
